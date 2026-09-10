@@ -1,29 +1,30 @@
 {
-  "name": "js-api-backend",
-  "version": "1.0.0",
-  "description": "yeaj",
-  "keywords": [
-    "js",
-    "api",
-    "backend",
-    "kool"
-  ],
-  "homepage": "https://github.com/thersgo/node-js-api-backend#readme",
-  "bugs": {
-    "url": "https://github.com/thersgo/node-js-api-backend/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thersgo/node-js-api-backend.git"
-  },
-  "license": "BSL-1.0",
-  "author": "Henri Kangro",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "sl"
-  },
-  "dependencies": {
-    "express": "^5.2.1"
-  }
+	"name": "js-api-backend",
+	"version": "1.0.0",
+	"description": "yeaj",
+	"keywords": [
+		"js",
+		"api",
+		"backend",
+		"kool"
+	],
+	"homepage": "https://github.com/thersgo/node-js-api-backend#readme",
+	"bugs": {
+		"url": "https://github.com/thersgo/node-js-api-backend/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/thersgo/node-js-api-backend.git"
+	},
+	"license": "BSL-1.0",
+	"author": "Henri Kangro",
+	"type": "module",
+	"main": "server.js",
+	"scripts": {
+		"dev": "node server.js"
+	},
+	"dependencies": {
+		"express": "^5.2.1"
+	}
 }
+
